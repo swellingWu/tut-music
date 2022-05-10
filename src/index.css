@@ -23,3 +23,66 @@ button {
   padding: 50px;
   border-radius: 16px;
 }
+.c-player--details > h6 {
+  font-size: 20px;
+  margin-left: 100px;
+  font-family: "YouYuan";
+}
+.c-player > h6 {
+  color: #fff;
+  font-size: 5px;
+  text-transform: uppercase;
+  font-weight: 20;
+  text-align: center;
+}
+.c-player > p {
+  color: #aaa;
+  font-size: 14px;
+  text-align: center;
+  font-weight: 400;
+}
+.c-player--details .detail-img {
+  position: relative;
+  width: fit-content;
+  margin: 50px auto;
+  border-radius: 143px;
+  background: linear-gradient(145deg, #9fa7a7, #bdc6c6);
+}
+.c-player--details .detail-img img {
+  margin: 0px auto;
+  max-width: 250px;
+  border-radius: 50%;
+  border-radius: 50%;
+}
+.c-player--details .details-title {
+  color: #eee;
+  font-size: 28px;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8),
+    -2px -2px 4px rgba(255, 255, 255, 0.4);
+  text-align: center;
+  margin-bottom: 10px;
+}
+.c-player--details .details-artist {
+  color: black;
+  font-style: 20px;
+  text-align: center;
+}
+.c-player--controls .play-btn {
+  margin: 0 30px;
+  padding: 20px;
+  border-radius: 40%;
+  border: 2px;
+  outline: none;
+  color: black;
+  font-size: 24px;
+  background: none;
+  cursor: pointer;
+}
+.c-player--controls .skip-btn {
+  background: none;
+  border: 2px;
+  outline: none;
+  cursor: pointer;
+  color: black;
+  font-style: 18px;
+}
