@@ -1,5 +1,5 @@
 import { useState } from "react";
-import Player from "../components/Player";
+import Player from "./components/Player";
 
 function App() {
   const [songs, setSongs] = useState([
@@ -10,10 +10,22 @@ function App() {
       src: "../music/想去海边.mp3",
     },
     {
+      title: "极恶都市",
+      artist: "🎉 夏日入侵企画",
+      img_src: "../images/log.jpg",
+      src: "../music/想去海边.mp3",
+    },
+    {
       title: "夏目漱石",
       artist: "🎉 橘子海",
       img_src: "../images/log.jpeg",
       src: "../music/夏目漱石.mp3",
+    },
+    {
+      title: "人生浪费指南",
+      artist: "🎉 夏日入侵企画",
+      img_src: "../images/log.jpg",
+      src: "../music/想去海边.mp3",
     },
   ]);
 
