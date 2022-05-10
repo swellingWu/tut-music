@@ -1,0 +1,25 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: cursive;
+  font-size: 40px;
+}
+body {
+  background-color: #ddd;
+}
+.App {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+}
+button {
+  margin-left: 10px;
+}
+.c-player {
+  display: block;
+  background-color: rgba(255, 255, 255, 0.3);
+  padding: 50px;
+  border-radius: 16px;
+}
