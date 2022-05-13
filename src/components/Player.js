@@ -31,7 +31,7 @@ function Player(props) {
         temp--;
 
         if(temp < 0) {
-          temp = propr.song.length - 1;
+          temp = props.songs.length - 1;
         }
         return temp;
       })
